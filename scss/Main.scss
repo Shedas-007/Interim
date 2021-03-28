@@ -1,0 +1,60 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .mainblock {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mainblock:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  .mainblock:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+  
+  .mainblock:nth-child(even) .image {
+    margin-right: 0;
+  }
+
+
+  .image {
+    flex-shrink: 0;
+    position: relative;
+    width: 50%;
+    height: 30rem;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .text {
+    position: relative;
+    font-size: 2rem;
+  }
+
+  
+  .text p:first-of-type {
+    margin-top: 0;
+    padding: 1rem;
+  }
+  
+  .text p:last-of-type {
+    margin-bottom: 0;
+    padding-left: 2.5rem;
+  }
+  
+  .text h3:last-of-type {
+    margin-bottom: 0;
+    padding-left: 2.5rem;
+    text-transform: capitalize;
+  }
+  
+  .text h3:first-of-type {
+    padding-left: 2.5rem;
+    text-transform: capitalize;
+  }
+  

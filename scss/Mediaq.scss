@@ -1,0 +1,57 @@
+@media (max-width: 600px) {
+    :root {
+      font-size: 1.5vw;
+    }
+  .features {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .register h2 {
+    width: 30rem;
+    margin-bottom: 15rem;
+  }
+  .register .enteremail {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .mainblock {
+    flex-direction: column;
+    width: 100%
+  }
+  .text {
+    width: 100%;
+  }
+  .image {
+    width: 100%;
+  }
+
+  .mainblock:nth-child(odd) {
+    flex-direction: column;
+}
+
+  .opinion {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .signup h2 {
+    margin-top: 1rem;
+  }
+  .signup .signup2 {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .complex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .complex footer {
+    align-items: center;
+  }
+
+  
+}
